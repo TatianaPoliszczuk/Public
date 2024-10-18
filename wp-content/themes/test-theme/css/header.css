@@ -97,9 +97,9 @@
 .close-menu {
   display: flex;
   justify-content: end;
-  margin-top: 20px;
-  margin-right: 20px;
-  stroke: #fbfbfb;
+  margin-top: 40px;
+  margin-right: 10px;
+  stroke: #473D37;
   opacity: 1;
   transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -107,6 +107,7 @@
 .close-menu_svg {
   width: 34px;
   height: 34px;
+  fill:#473D37;
 }
 
 .close-menu:hover {

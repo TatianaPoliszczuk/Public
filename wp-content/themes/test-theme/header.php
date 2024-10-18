@@ -86,10 +86,11 @@
     <div class="media-menu-inner">
       <button class="close-menu" type="button">
       <svg class="close-menu_svg" width="34" height="34">
-  <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-close-menu"></use>
+      <use href="<?php echo get_template_directory_uri(); ?>/img/sprite.svg#icon-x"></use>
 </svg>
+
       </button>
-      
+
       <nav class="media-menu-nav">
       <ul class="media-nav-list">
     <li class="media-list-item">
