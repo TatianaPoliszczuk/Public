@@ -23,24 +23,20 @@
   <?php get_header(); ?>
 
 <?php
-switch (rtrim($_SERVER['REQUEST_URI'], '/')) {  // rtrim usuwa końcowy "/"
-    case '':
-    case '/':
-        get_template_part('main');
-        break;
-    case '/o-nas':
-        get_template_part('o-nas');
-        break;
-    case '/courses':
-        get_template_part('courses');
-        break;
-    case '/contact':
-        get_template_part('contact');
-        break;
-    default:
-        get_template_part('404'); // Ładowanie strony 404
-        break;
-}
+switch ($_SERVER['REQUEST_URI']) {
+  case '/':
+      get_template_part('main');
+      break;
+  case '/o-nas':
+      get_template_part('about-subpage');
+      break;
+  case '/courses':
+      get_template_part('courses');
+      break;
+  case '/contact':
+      get_template_part('contact');
+      break;
+  }
 ?>
 
 <?php get_footer(); ?>
