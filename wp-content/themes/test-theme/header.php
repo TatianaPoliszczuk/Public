@@ -1,43 +1,35 @@
 <header class="watch-charm" id="scroll-up">
   <div class="header-inner container">
-    <a href="./index.html" class="header-logo">
+    <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo">
       <img
         src="<?php echo get_template_directory_uri(); ?>/img/base_logo_transparent_background.png"
         alt="LuizaRadecka Logo"
       />
     </a>
     <button type="button" class="burger-menu">
-    <svg class="burger-menu_svg" width="28" height="14">
-  <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-Vector"></use>
-</svg>
-
+      <svg class="burger-menu_svg" width="28" height="14">
+        <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-Vector"></use>
+      </svg>
     </button>
     <nav class="header-nav">
       <ul class="header-nav-list">
         <li class="nav-list-item">
-          <a href="./index.html" class="nav-list_link nav-list_main-link"
-            >Strona główna</a
-          >
+          <a href="<?php echo esc_url(home_url('/')); ?>" class="nav-list_link nav-list_main-link">Strona główna</a>
         </li>
         <li class="nav-list-item">
-          <a href="#about" class="nav-list_link nav-list_main-link">O mnie</a>
-          <a href="<?php echo site_url('/o-mnie'); ?>" class="nav-list_link nav-list_main-link">O mnie</a>
+          <a href="<?php echo esc_url(home_url('/o-nas')); ?>" class="nav-list_link nav-list_main-link">O mnie</a>
         </li>
         <li class="nav-list-item">
-          <a href="#courses" class="nav-list_link nav-list_main-link"
-            >Szkolenia</a
-          >
+          <a href="<?php echo esc_url(home_url('/courses')); ?>" class="nav-list_link nav-list_main-link">Szkolenia</a>
         </li>
         <li class="nav-list-item">
-          <a href="#shop" class="nav-list_link nav-list_main-link">Sklep</a>
+          <a href="<?php echo esc_url(home_url('/shop')); ?>" class="nav-list_link nav-list_main-link">Sklep</a>
         </li>
         <li class="nav-list-item">
-          <a href="#reviews" class="nav-list_link nav-list_main-link">Opinie</a>
+          <a href="<?php echo esc_url(home_url('/reviews')); ?>" class="nav-list_link nav-list_main-link">Opinie</a>
         </li>
         <li class="nav-list-item">
-          <a href="#contact" class="nav-list_link nav-list_main-link"
-            >Kontakt</a
-          >
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="nav-list_link nav-list_main-link">Kontakt</a>
         </li>
       </ul>
     </nav>

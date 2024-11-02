@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LuizaRadecka</title>
     <link
@@ -13,22 +13,24 @@
       referrerpolicy="no-referrer"
     />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/styles.css" />
-    <!-- <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/img/icons.svg" /> -->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/styles.css" />
+    <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/img/icons.svg" /> -->
 
     <?php wp_head(); ?>
-  </head>
-  <body <?php body_class(); ?>>
+</head>
+<body <?php body_class(); ?>>
 
 <?php get_header(); ?>
 
 <?php get_template_part('hero'); ?>
-<?php get_template_part('about'); ?>
+<?php get_template_part('o-nas'); ?>
 <?php get_template_part('advertisement'); ?>
 <?php get_template_part('courses'); ?>
 <?php get_template_part('reviews'); ?>
 <?php get_template_part('places'); ?>
 <?php get_template_part('contact'); ?>
 
-
 <?php get_footer(); ?>
+
+</body>
+</html>

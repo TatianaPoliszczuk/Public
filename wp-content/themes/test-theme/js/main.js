@@ -43,7 +43,7 @@ buttonItemMenu5.addEventListener('click', () => {
 const scrollUp = document.querySelector('.scroll-up');
 
 window.addEventListener('scroll', function () {
-  scrollUp.classList.toggle('is-open-scroll', window.scrollY > 500);
+  scrollUp?.classList.toggle('is-open-scroll', window.scrollY > 500);
 });
 
 // (() => {
@@ -81,7 +81,7 @@ window.addEventListener('scroll', function () {
 //   });
 // })();
 
-document.querySelector('.catalog-btn').addEventListener('click', function () {
+document.querySelector('.catalog-btn')?.addEventListener('click', function () {
   // Pobierz wszystkie ukryte elementy listy
   const hiddenItems = document.querySelectorAll(
     '.catalog-list li:nth-child(n + 5)'
