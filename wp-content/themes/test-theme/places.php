@@ -34,14 +34,16 @@
   />
 </picture>
 
-        <div class="places-text-wrapper">
-          <h3 class="places-title">Mia Dea</h3>
-          <p class="places-adress">
-  <a href="https://maps.app.goo.gl/MNSzEAepENLsH5yU6" target="_blank">
-    Wadowicka 8A, 30-415 Kraków
-  </a>
-</p>
+        <ul class="places-text-wrapper">
+          <li class="places-title">Mia Dea</li>
+          <li class="places-adress">
+  <a href="https://maps.app.goo.gl/MNSzEAepENLsH5yU6" target="_blank">Wadowicka 8A, 30-415 Kraków</a></li>
+  <li class="places-phone-number">
+    <a href="tel:+48508350406">+48508350406</a></li>
+</ul>
 
+        <div class="places-button-wrapper">
+          <a class="places-button" href="https://booksy.com/pl-pl/135528_mia-dea_salon-kosmetyczny_8820_krakow#ba_s=seo" target="_blank"> Zarezerwuj wizytę</a>
         </div>
       </li>
 

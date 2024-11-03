@@ -10,6 +10,10 @@
     max-width: 375px;
   }
 
+  .places-text-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
   .places-adress {
     font-family: var(--font-family);
     font-weight: 500;
@@ -19,6 +23,26 @@
     color: rgba(12, 12, 12, 0.5); /* Kolor tekstu dla <p> */
   }
   
+  .places-button-wrapper{
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 16px;
+    background: #7a5b45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .places-button{
+    font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: var(--background);
+  }
   .places-adress a {
     color: rgba(12, 12, 12, 0.5) !important; /* Kolor linku */
     text-decoration: none; /* Usuwa podkreślenie linku */
@@ -32,6 +56,28 @@
     transform: scale(1.1); /* Powiększa tekst o 10% przy najeżdżaniu lub dotykaniu */
   }
   
+  .places-phone-number{
+    font-family: Gilroy;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+  }
+
+  .places-phone-number a{
+    color:#7A5B45 !important; /* Kolor linku */
+    text-decoration: none; /* Usuwa podkreślenie linku */
+    transition: transform 0.2s; /* Dodaje animację dla efektu powiększenia */
+  }
+
+  .places-phone-number a:hover,
+  .places-phone-number a:focus,
+  .places-phone-number a:active {
+    transform: scale(1.1); /* Powiększa tekst o 10% przy najeżdżaniu lub dotykaniu */
+  }
+  
+
   @media screen and (min-width: 768px) {
     .places-section  {
       padding-top: 80px;
@@ -170,14 +216,16 @@
   
   .places-text-wrapper {
     width: 280px;
+    gap: 8px;
   }
+
   .places-title {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    margin-bottom: 8px;
+    
   }
   @media screen and (min-width: 768px) {
     .places-title {
@@ -197,6 +245,10 @@
     }
   }
   @media screen and (min-width: 1280px) {
+    .places-text-wrapper{
+margin-bottom: 10px;
+    }
+
     .places-title {
       width: 304px;
     }
@@ -225,6 +277,15 @@
     .container-places {
       max-width: 1280px;
       padding: 0 65px;
+    }
+
+    .places-button-wrapper {
+      width: 160px;
+      height: 48px;
+    }
+
+    .places-button {
+      cursor: pointer;
     }
   }
   
