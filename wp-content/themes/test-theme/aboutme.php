@@ -5,21 +5,21 @@
       <picture>
     <source
         media="(min-width: 1280px)"
-        srcset="<?php echo get_template_directory_uri(); ?>/img/about-desk@1x.jpg 1x, 
-                <?php echo get_template_directory_uri(); ?>/img/about-desk@2x.jpg 2x"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/aboutme_desk@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/aboutme_desk@2x.jpg 2x"
     />
     <source
         media="(min-width: 768px)"
-        srcset="<?php echo get_template_directory_uri(); ?>/img/about-desk@1x.jpg 1x, 
-                <?php echo get_template_directory_uri(); ?>/img/about-desk@2x.jpg 2x"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/aboutme_desk@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/aboutme_desk@2x.jpg 2x"
     />
     <source
         media="(min-width: 320px)"
-        srcset="<?php echo get_template_directory_uri(); ?>/img/aboutme_mob@1x.jpg 1x, 
-                <?php echo get_template_directory_uri(); ?>/img/aboutme_mob@2x.jpg 2x"
+        srcset="<?php echo get_template_directory_uri(); ?>/img/aboutmenew_mob@1x.jpg 1x, 
+                <?php echo get_template_directory_uri(); ?>/img/aboutmenew_mob@2x.jpg 2x"
     />
     <img
-        src="<?php echo get_template_directory_uri(); ?>/img/aboutme_mob.jpg"
+        src="<?php echo get_template_directory_uri(); ?>/img/aboutmenew_mob.jpg"
         alt="luiza_radecka_o_mnie"
         class="about-image"
         loading="lazy"

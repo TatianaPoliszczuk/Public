@@ -75,35 +75,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/krio_szkolenie@1x.png 1x,
-              /img/decst_img/krio_szkolenie@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/krio_szkolenie@1x.png 1x,
-              /img/decst_img/krio_szkolenie@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/krio_szkolenie@1x.png 1x,
-              /img/decst_img/krio_szkolenie@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/krio_szkolenie@1x.png"
-            alt="krio_szkolenie"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/krio_szkolenie_desk@1x.png"
+    alt="krio_szkolenie"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Skojarzona terapia brodawek wirusowych w gabinecie podologicznym
@@ -112,35 +113,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/odciski@1x.png 1x,
-              /img/decst_img/odciski@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/odciski@1x.png 1x,
-              /img/decst_img/odciski@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/odciski@1x.png 1x,
-              /img/decst_img/odciski@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/odciski@1x.png"
-            alt="Odciski"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/odciski_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/odciski_desk@1x.png"
+    alt="Odciski"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Odcisk a Brodawka - Różnicowanie i Terapia
@@ -149,35 +151,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/diagnostyka@1x.png 1x,
-              /img/decst_img/diagnostyka@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/diagnostyka@1x.png 1x,
-              /img/decst_img/diagnostyka@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/diagnostyka@1x.png 1x,
-              /img/decst_img/diagnostyka@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/diagnostyka@1x.png"
-            alt="Odcisk"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/diagnostyka_desk@1x.png"
+    alt="Diagnostyka"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Diagnostyka i Terapia Grzybic Paznokci: Pobranie i Materiałow
@@ -187,35 +190,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/skalpel_odcisk@1x.png 1x,
-              /img/decst_img/skalpel_odcisk@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/skalpel_odcisk@1x.png 1x,
-              /img/decst_img/skalpel_odcisk@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/skalpel_odcisk@1x.png 1x,
-              /img/decst_img/skalpel_odcisk@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/skalpel_odcisk@1x.png"
-            alt="skalpel_odcisk"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/skalpel_odcisk_desk@1x.png"
+    alt="Skalpel Odcisk"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Odciski i Obciążenia w Gabinecie Podologicznym
@@ -224,35 +228,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/klamra@1x.png 1x,
-              /img/decst_img/klamra@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/klamra@1x.png 1x,
-              /img/decst_img/klamra@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/klamra@1x.png 1x,
-              /img/decst_img/klamra@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/klamra@1x.png"
-            alt="luiza_i_stopa"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/klamra_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/klamra_desk@1x.png"
+    alt="Klamra"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Klamra Tytanowa w Ortonyksji: Innowacyjne Rozwiązania w Terapii
@@ -262,35 +267,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/luiza_szkoli@1x.png 1x,
-              /img/decst_img/luiza_szkoli@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/luiza_szkoli@1x.png 1x,
-              /img/decst_img/luiza_szkoli@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/luiza_szkoli@1x.png 1x,
-              /img/decst_img/luiza_szkoli@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/luiza_szkoli@1x.png"
-            alt="luiza_szkolenie"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/luiza_szkoli_desk@1x.png"
+    alt="Luiza Szkolenie"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Terapia Grzybic Paznokci i Skóry - Zaawansowane Metody Terapii
@@ -299,35 +305,36 @@
         </div>
       </li>
       <li class="catalog-list-item">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              /img/decst_img/podologia_skolenie@1x.png 1x,
-              /img/decst_img/podologia_skolenie@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /img/decst_img/podologia_skolenie@1x.png 1x,
-              /img/decst_img/podologia_skolenie@1x.png 2x
-            "
-          />
-          <source
-            media="(min-width: 320px)"
-            srcset="
-              /img/decst_img/podologia_skolenie@1x.png 1x,
-              /img/decst_img/podologia_skolenie@1x.png 2x
-            "
-          />
-          <img
-            class="catalog-pic"
-            src="/img/decst_img/podologia_skolenie@1x.png"
-            alt="podologia-szkolenie"
-            loading="lazy"
-          />
-        </picture>
+      <picture>
+  <source
+    media="(min-width: 1280px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 768px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@2x.png 2x
+    "
+  />
+  <source
+    media="(min-width: 320px)"
+    srcset="
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@1x.png 1x,
+      <?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@2x.png 2x
+    "
+  />
+  <img
+    class="catalog-pic"
+    src="<?php echo get_template_directory_uri(); ?>/img/podologia_skolenie_desk@1x.png"
+    alt="Podologia Szkolenie"
+    loading="lazy"
+  />
+</picture>
+
         <div class="catalog-text-wrapper">
           <h3 class="catalog-title">
             Kompleksowe Podejście do Paznokci Pourazowych i Zmienionych

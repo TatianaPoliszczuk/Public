@@ -3,11 +3,11 @@
     <h2 class="contact-title" id="contactus">Kontakt</h2>
     <div class="contact-wrapper">
       <div class="modal">
-        <p class="contact-modal-text">
+        <!-- <p class="contact-modal-text">
           Użyj poniższego formularza, aby się z nami skontaktować. Wpisz swoje
           imię i nazwisko, adres e-mail, telefon i wiadomość, a my wkrótce się z
           Tobą skontaktujemy.
-        </p>
+        </p> -->
         <form class="modal-contact">
           <div class="modal-contact-form">
             <label class="modal-label visually-hidden" for="name">Name</label>
@@ -63,6 +63,7 @@
           </div>
           <button class="modal-button" type="submit">Wyślij wiadomość</button>
         </form>
+        
       </div>
       <div class="contact-main-picture">
       <picture>

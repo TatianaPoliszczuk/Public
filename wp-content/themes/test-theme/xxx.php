@@ -22,12 +22,12 @@
 
   <?php get_header(); ?>
 
-<?php
-switch ($_SERVER['REQUEST_URI']) {
-  case '/':
+  <?php
+switch (rtrim($_SERVER['REQUEST_URI'], '/')) {
+  case '':
       get_template_part('main');
       break;
-  case '/o-nas':
+  case '/aboutme':
       get_template_part('about-subpage');
       break;
   case '/courses':
@@ -36,7 +36,11 @@ switch ($_SERVER['REQUEST_URI']) {
   case '/contact':
       get_template_part('contact');
       break;
-  }
+  default:
+      echo 'Nie znaleziono pasującej ścieżki';
+      break;
+}
 ?>
+
 
 <?php get_footer(); ?>

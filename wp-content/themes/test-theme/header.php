@@ -1,45 +1,38 @@
 <header class="watch-charm" id="scroll-up">
   <div class="header-inner container">
-    <a href="./index.html" class="header-logo">
+    <a href="<?php echo site_url(); ?>" class="header-logo">
       <img
         src="<?php echo get_template_directory_uri(); ?>/img/base_logo_transparent_background.png"
         alt="LuizaRadecka Logo"
       />
     </a>
     <button type="button" class="burger-menu">
-    <svg class="burger-menu_svg" width="28" height="14">
-  <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-Vector"></use>
-</svg>
+      <svg class="burger-menu_svg" width="28" height="14">
+        <use href="<?php echo get_template_directory_uri(); ?>/img/icons.svg#icon-Vector"></use>
+      </svg>
     </button>
     <nav class="header-nav">
       <ul class="header-nav-list">
         <li class="nav-list-item">
-          <a href="/" class="nav-list_link nav-list_main-link"
-            >Strona główna</a
-          >
+          <a href="<?php echo site_url('/'); ?>" class="nav-list_link nav-list_main-link">Strona główna</a>
         </li>
         <li class="nav-list-item">
-          <a href="/o-nas" class="nav-list_link nav-list_main-link">O mnie</a>
+          <a href="<?php echo site_url('o-nas'); ?>" class="nav-list_link nav-list_main-link">O mnie</a>
         </li>
         <li class="nav-list-item">
-          <a href="courses" class="nav-list_link nav-list_main-link"
-            >Szkolenia</a
-          >
+          <a href="<?php echo site_url('courses'); ?>" class="nav-list_link nav-list_main-link">Szkolenia</a>
         </li>
         <li class="nav-list-item">
-          <a href="/shop" class="nav-list_link nav-list_main-link">Sklep</a>
+          <a href="<?php echo site_url('shop'); ?>" class="nav-list_link nav-list_main-link">Sklep</a>
         </li>
         <li class="nav-list-item">
-          <a href="/reviews" class="nav-list_link nav-list_main-link">Opinie</a>
+          <a href="<?php echo site_url('blog'); ?>" class="nav-list_link nav-list_main-link">Blog</a>
         </li>
         <li class="nav-list-item">
-          <a href="/contact" class="nav-list_link nav-list_main-link"
-            >Kontakt</a
-          >
+          <a href="<?php echo site_url('contact'); ?>" class="nav-list_link nav-list_main-link">Kontakt</a>
         </li>
       </ul>
     </nav>
-
     <address class="header-socials">
     <ul class="header-socials-list">
     <li class="socials-list-item">
@@ -106,7 +99,7 @@
         <a href="#shop" class="media-menu-link media-after for-close-3">Sklep</a>
     </li>
     <li class="media-list-item">
-        <a href="#reviews" class="media-menu-link media-after for-close-4">Opinie</a>
+        <a href="#blog" class="media-menu-link media-after for-close-4">Blog</a>
     </li>
     <li class="media-list-item">
         <a href="#kontakt" class="media-menu-link media-after for-close-5">Kontakt</a>

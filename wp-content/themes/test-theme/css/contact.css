@@ -49,6 +49,17 @@
   color: #0c0c0c;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .modal-input {
   border: 1px solid #0c0c0c;
   border-radius: 12px;
@@ -99,6 +110,7 @@
   align-items: center;
   justify-content: center;
   white-space: nowrap;
+  visibility: visible;
 }
 
 .modal-button:hover {
@@ -191,7 +203,7 @@
     padding: 50px 60px;
     flex: 1;
     max-width: 580px;
-    height: 556px;
+    height: 520px;
     border-radius: 50px;
   }
 
@@ -201,7 +213,7 @@
     padding: 17px 63px 17px 63px;
     gap: 10px;
     border-radius: 16px;
-    opacity: 0;
+    
   }
 
   .modal-input {
