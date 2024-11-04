@@ -10,7 +10,7 @@
           <ul class="footer-socials-list">
     <li class="footer-socials">
         <a
-            href="https://www.facebook.com/luiza.radecka.1"
+            href="https://www.facebook.com/profile.php?id=61566403711708"
             class="footer-social-link"
             target="_blank"
         >

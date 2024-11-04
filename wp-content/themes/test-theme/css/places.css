@@ -13,6 +13,7 @@
   .places-text-wrapper{
     display: flex;
     flex-direction: column;
+    margin-bottom: 5px;
   }
   .places-adress {
     font-family: var(--font-family);
@@ -215,7 +216,7 @@ text-align: left;
   }
   
   .places-text-wrapper {
-    width: 280px;
+    /* width: 280px; */
     gap: 8px;
   }
 

@@ -37,7 +37,7 @@
     <ul class="header-socials-list">
     <li class="socials-list-item">
         <a
-            href="https://www.facebook.com/luiza.radecka.1"
+            href="https://www.facebook.com/profile.php?id=61566403711708"
             class="socials-item-link"
             target="_blank"
         >
@@ -111,7 +111,7 @@
       <ul class="media-socials-list">
     <li class="media-socials-item">
         <a
-            href="https://www.facebook.com/luiza.radecka.1"
+            href="https://www.facebook.com/profile.php?id=61566403711708"
             class="media-socials-link"
             target="_blank"
         >

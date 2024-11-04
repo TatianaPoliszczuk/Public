@@ -12,9 +12,7 @@
             </p>
           </li>
         </ul>
-        <!-- <div class="hero-button-wrapper">
-          <a class="hero-button" href="contact">Zarezerwuj wizytę</a>
-        </div> -->
+       
       </div>
       <div class="shop-block-image" data-aos="fade-right">
       <picture>

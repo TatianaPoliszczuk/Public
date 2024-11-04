@@ -39,7 +39,7 @@
           <li class="places-adress">
   <a href="https://maps.app.goo.gl/MNSzEAepENLsH5yU6" target="_blank">Wadowicka 8A, 30-415 Kraków</a></li>
   <li class="places-phone-number">
-    <a href="tel:+48508350406">+48508350406</a></li>
+    <a href="tel:+48570148148">+48570148148</a></li>
 </ul>
 
         <div class="places-button-wrapper">
@@ -78,17 +78,19 @@
   />
 </picture>
 
-
-        <div class="places-text-wrapper">
-          <h3 class="places-title">La Symetrie</h3>
-          <p class="places-adress">
-  <a href="https://maps.app.goo.gl/eCramWm8xGtn4nan6" target="_blank">
-    Warszawska 178, 32-087 Bibice
-  </a>
-</p>
-
+<ul class="places-text-wrapper">
+          <li class="places-title">La Symetrie</li>
+          <li class="places-adress">
+          <a href="https://maps.app.goo.gl/eCramWm8xGtn4nan6" target="_blank"> Warszawska 178, 32-087 Bibice</a>
+  <li class="places-phone-number">
+    <a href="tel:+48690197000">+48690197000</a></li>
+</ul>
+        <div class="places-button-wrapper">
+          <a class="places-button" href="https://booksy.com/pl-pl/114392_la-symetrie_salon-kosmetyczny_10022_zielonki#ba_s=seo" target="_blank"> Zarezerwuj wizytę</a>
         </div>
       </li>
+
+      
       <li class="places-list-item">
       <picture>
   <source
@@ -120,14 +122,18 @@
   />
 </picture>
 
-        <div class="places-text-wrapper">
-          <h3 class="places-title">
-            Salve Medical</h3>
-            <p class="places-adress">
-  <a href="https://maps.app.goo.gl/rr5Z1YivTarMrawj9" target="_blank">
-    Osiedle 2 Pułku Lotniczego 31, 31-870 Kraków
-  </a>
-</p>
+<ul class="places-text-wrapper">
+          <li class="places-title">Salve Medical</li>
+          <li class="places-adress">
+          <a href="https://maps.app.goo.gl/rr5Z1YivTarMrawj9" target="_blank">Osiedle 2 Pułku Lotniczego 31, 31-870 Kraków</a>
+  <li class="places-phone-number">
+    <a href="tel:+48501102544">+48501102544</a></li>
+</ul>
+        <div class="places-button-wrapper">
+          <a class="places-button" href="https://booksy.com/pl-pl/12495_salve-medical_zdrowie_8820_krakow#ba_s=seo" target="_blank"> Zarezerwuj wizytę</a>
+        </div>
+      </li>
+
 
         </div>
       </li>

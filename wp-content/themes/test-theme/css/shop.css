@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
   }
   
   .shop-title {
@@ -74,13 +75,25 @@
   }
   
   .shop-block-text {
-    border: none;
+    display: block;
+    border: 1px solid #0c0c0c26;
     border-radius: 30px;
-    padding: 40px 20px;
-    margin-bottom: 40px;
-    width: 100%;
+    padding: 48px 28px;
+    /* width: 219px; */
+    background: #fcfaf7;
+    height: auto;
   }
   
+  @media screen and (min-width: 375px) {
+    .container-shop {
+      max-width: 375px;
+    }
+  
+    .reviews-item {
+      max-width: 335px;
+    }
+  }
+
   @media (min-width: 768px) {
     .shop-container {
       flex-direction: row; /* Wprowadza układ poziomy */
@@ -104,8 +117,9 @@
     }
   
     .shop-block-text {
-      width: 704px;
-      padding: 80px 60px; /* Dostosowuje padding */
+      width: 385px;
+    height: 323px;
+      padding: 50px 35px; /* Dostosowuje padding */
     }
   
     .shop-list {
@@ -129,9 +143,11 @@
     }
   
     .shop-block-text {
-      padding: 80px 60px;
-      width: 580px;
-      height: 532px;
+      padding: 50px 60px;
+    flex: 1;
+    max-width: 537px;
+    height: 450px;
+    border-radius: 50px;
     }
   
     .shop-image {
